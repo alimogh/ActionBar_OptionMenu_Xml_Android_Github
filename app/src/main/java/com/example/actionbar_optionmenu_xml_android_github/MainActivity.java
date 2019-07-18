@@ -31,24 +31,23 @@ public class MainActivity extends AppCompatActivity {
         switch (id) {
             case R.id.action_menuOne:
                 Toast.makeText(getApplicationContext(), "Menu 1 Clicked", Toast.LENGTH_SHORT).show();
-                return true;
+                break;
 
             case R.id.action_menuTwo:
                 Toast.makeText(getApplicationContext(), "Menu 2 Clicked", Toast.LENGTH_SHORT).show();
-                return true;
+                break;
 
             case R.id.action_menuThree:
                 Toast.makeText(getApplicationContext(), "Menu 3 Clicked", Toast.LENGTH_SHORT).show();
-                return true;
+                break;
 
             case R.id.action_menuFour:
                 Toast.makeText(getApplicationContext(), "Menu 4 Clicked", Toast.LENGTH_SHORT).show();
-                return true;
+                break;
 
             case R.id.action_menuFive:
                 Toast.makeText(getApplicationContext(), "Menu 5 Clicked", Toast.LENGTH_SHORT).show();
-                return true;
-
+                break;
         }
 
         return super.onOptionsItemSelected(item);
