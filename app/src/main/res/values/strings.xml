@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ActionBar_OptionMenu_Xml_Android_Github</string>
+    <string name="menuOne">Menu Item One</string>
+    <string name="menuTwo">Menu Item Two</string>
+    <string name="menuThree">Menu Item Three</string>
+    <string name="menuFour">Menu Item Four</string>
+    <string name="menuFive">Menu Item Five</string>
 </resources>
